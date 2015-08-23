@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document
+  xmlns="http://maven.apache.org/XDOC/2.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/XDOC/2.0 http://maven.apache.org/xsd/xdoc-2.0.xsd">
+
+  <properties>
+    <title>io7m-timehack6435126</title>
+  </properties>
+
+  <body>
+    <subsection name="timehack6435126">
+      <p>
+        The <var>timehack6435126</var>
+        package contains the workaround for <a href="http://bugs.java.com/view_bug.do?bug_id=6435126">JDK-6435126</a>,
+        named in honour of the one of the worst responses to a bug
+        report in written history.
+      </p>
+      <p>
+        <i>"This has been broken for too long. No use fixing it now."</i>
+      </p>
+      <p>
+        Specifically, it forces the JVM to use high-resolution timers.
+        The JRE command line flag that would otherwise have enabled these
+        timers does exactly the opposite, as documented in bug
+        <b>6435126</b>. Most platforms (notably, not Windows) have
+        high-resolution timers by default, but this workaround should
+        be used to guarantee it on all platforms.
+      </p>
+    </subsection>
+    <subsection name="Features">
+      <ul>
+        <li>Enables high-resolution timers in the JVM.</li>
+        <li>Not written by Oracle.</li>
+        <li>ISC license.</li>
+      </ul>
+    </subsection>
+  </body>
+
+</document>
