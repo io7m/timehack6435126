@@ -13,7 +13,7 @@
   <artifactId>io7m-timehack6435126-checkstyle</artifactId>
 
   <packaging>jar</packaging>
-  <description>Null pointer handling (Checkstyle policy)</description>
+  <description>Java high-resolution timer bug workaround (Checkstyle policy)</description>
   <url>http://io7m.github.io/timehack6435126</url>
   <name>${project.artifactId}</name>
 
