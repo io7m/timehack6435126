@@ -23,8 +23,8 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <siteReposDirectory>/com/io7m/timehack6435126</siteReposDirectory>
-    <siteDocumentationDirectory>/com/io7m/timehack6435126/io7m-timehack6435126-documentation</siteDocumentationDirectory>
+    <siteReposDirectory>com/io7m/timehack6435126</siteReposDirectory>
+    <siteDocumentationDirectory>com/io7m/timehack6435126/io7m-timehack6435126-documentation</siteDocumentationDirectory>
   </properties>
 
   <licenses>
