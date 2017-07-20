@@ -58,7 +58,7 @@ public final class TimeHack6435126
           }
         }
       };
-      t.setName("timehack6435126");
+      t.setName("com.io7m.timehack6435126");
       t.setDaemon(true);
       t.start();
     }
