@@ -14,5 +14,9 @@
  * IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-@com.io7m.jnull.NonNullByDefault package com.io7m.timehack6435126;
+/**
+ * Core functions.
+ */
+
+package com.io7m.timehack6435126;
 

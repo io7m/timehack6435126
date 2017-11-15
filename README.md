@@ -1,8 +1,9 @@
 timehack6435126
 ===
 
-[![Build Status](https://travis-ci.org/io7m/timehack6435126.svg?branch=master)](https://travis-ci.org/io7m/timehack6435126)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.io7m.timehack6435126/com.io7m.timehack6435126/badge.png)](https://maven-badges.herokuapp.com/maven-central/com.io7m.timehack6435126/com.io7m.timehack6435126)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/6a2722d23967445da7c3466448b3d889)](https://www.codacy.com/app/github_79/timehack6435126?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=io7m/timehack6435126&amp;utm_campaign=Badge_Grade)
+[![Travis](https://img.shields.io/travis/io7m/timehack6435126.png?style=flat-square)](https://travis-ci.org/io7m/timehack6435126)
+[![Maven Central](https://img.shields.io/maven-central/v/com.io7m.timehack6435126/com.io7m.timehack6435126.png?style=flat-square)](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.io7m.timehack6435126%22)
+[![Codacy grade](https://img.shields.io/codacy/grade/6a2722d23967445da7c3466448b3d889.png?style=flat-square)](https://www.codacy.com/app/github_79/timehack6435126)
+[![Codecov](https://img.shields.io/codecov/c/github/io7m/timehack6435126.png?style=flat-square)](https://codecov.io/gh/io7m/timehack6435126)
 
 See https://io7m.github.io/timehack6435126/ for more information.

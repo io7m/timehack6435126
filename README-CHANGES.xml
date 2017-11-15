@@ -1,39 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<c:changelog xmlns:c="http://schemas.io7m.com/changelog/2.0.0">
-  <c:project>com.io7m.timehack6435126</c:project>
-
-  <c:release c:ticket-system="com.github.io7m.timehack6435126">
-    <c:date>2017-07-20</c:date>
-    <c:version>1.1.1</c:version>
-    <c:item>
-      <c:date>2017-07-20</c:date>
-      <c:type-code-fix/>
-      <c:summary>Correct package exports in OSGi metadata.</c:summary>
-    </c:item>
-  </c:release>
-
-  <c:release c:ticket-system="com.github.io7m.timehack6435126">
-    <c:date>2017-07-20</c:date>
-    <c:version>1.1.0</c:version>
-    <c:item>
-      <c:date>2017-07-20</c:date>
-      <c:type-code-change/>
-      <c:summary>Rename project. Use the new primogenitor POM and 2017 project conventions.</c:summary>
-    </c:item>
-  </c:release>
-
-  <c:release c:ticket-system="com.github.io7m.timehack6435126">
-    <c:date>2015-08-23</c:date>
-    <c:version>1.0.0</c:version>
-    <c:item>
-      <c:date>2015-08-23</c:date>
-      <c:type-code-new/>
-      <c:summary>Initial version</c:summary>
-    </c:item>
-  </c:release>
-
-  <c:ticket-system xml:id="com.github.io7m.timehack6435126">
-    <c:ticket-url>http://github.com/io7m/timehack6435126/issues/</c:ticket-url>
-  </c:ticket-system>
-
+<c:changelog xmlns:c="urn:com.io7m.changelog:4.0" project="com.io7m.timehack6435126">
+  <c:releases>
+    <c:release date="2015-08-23T00:00:00+00:00" ticket-system="com.github.io7m.timehack6435126" version="1.0.0">
+      <c:changes>
+        <c:change date="2015-08-23T00:00:00+00:00" summary="Initial version"/>
+      </c:changes>
+    </c:release>
+    <c:release date="2017-07-20T00:00:00+00:00" ticket-system="com.github.io7m.timehack6435126" version="1.1.0">
+      <c:changes>
+        <c:change compatible="false" date="2017-07-20T00:00:00+00:00" summary="Rename project. Use the new primogenitor POM and 2017 project conventions."/>
+      </c:changes>
+    </c:release>
+    <c:release date="2017-07-20T00:00:00+00:00" ticket-system="com.github.io7m.timehack6435126" version="1.1.1">
+      <c:changes>
+        <c:change date="2017-07-20T00:00:00+00:00" summary="Correct package exports in OSGi metadata."/>
+      </c:changes>
+    </c:release>
+    <c:release date="2017-11-15T19:03:25+00:00" ticket-system="com.github.io7m.timehack6435126" version="2.0.0">
+      <c:changes>
+        <c:change compatible="false" date="2017-11-15T19:03:25+00:00" summary="All modules are now Java 9 modules. JDK 9 is now required."/>
+      </c:changes>
+    </c:release>
+  </c:releases>
+  <c:ticket-systems>
+    <c:ticket-system default="true" id="com.github.io7m.timehack6435126" url="http://github.com/io7m/timehack6435126/issues/"/>
+  </c:ticket-systems>
 </c:changelog>

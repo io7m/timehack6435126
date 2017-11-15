@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<div xmlns="http://www.w3.org/1999/xhtml">
+  <ul>
+    <li>Enables high-resolution timers in the JVM.</li>
+    <li>ISC license.</li>
+  </ul>
+</div>
