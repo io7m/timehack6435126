@@ -14,8 +14,11 @@
  * IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-module com.io7m.timehack6435126.core {
+/**
+ * Java high-resolution timer bug workaround (Core)
+ */
 
+module com.io7m.timehack6435126.core
+{
   exports com.io7m.timehack6435126;
-
 }

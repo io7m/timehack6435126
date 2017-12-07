@@ -14,16 +14,13 @@
  * IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-package com.io7m.timehack6435126.documentation;
-
 /**
- * Functions for retrieving the documentation.
+ * Java high-resolution timer bug workaround (Documentation)
  */
 
-public final class Documentation
+module com.io7m.timehack6435126.documentation
 {
-  private Documentation()
-  {
+  requires com.io7m.timehack6435126.core;
 
-  }
+  exports com.io7m.timehack6435126.documentation;
 }
