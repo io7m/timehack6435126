@@ -7,4 +7,5 @@ timehack6435126
 [![Codacy grade](https://img.shields.io/codacy/grade/6a2722d23967445da7c3466448b3d889.png?style=flat-square)](https://www.codacy.com/app/github_79/timehack6435126)
 [![Codecov](https://img.shields.io/codecov/c/github/io7m/timehack6435126.png?style=flat-square)](https://codecov.io/gh/io7m/timehack6435126)
 
-See https://io7m.github.io/timehack6435126/ for more information.
+![timehack6435126](./src/site/resources/timehack6435126.jpg?raw=true)
+

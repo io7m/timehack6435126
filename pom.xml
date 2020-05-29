@@ -5,7 +5,7 @@
   <parent>
     <groupId>com.io7m.primogenitor</groupId>
     <artifactId>com.io7m.primogenitor.full</artifactId>
-    <version>3.1.0</version>
+    <version>4.0.1</version>
   </parent>
 
   <groupId>com.io7m.timehack6435126</groupId>
@@ -23,6 +23,7 @@
   </modules>
 
   <properties>
+    <com.codacy.id>6a2722d23967445da7c3466448b3d889</com.codacy.id>
     <io7m.api.previousVersion>2.0.0</io7m.api.previousVersion>
   </properties>
 
