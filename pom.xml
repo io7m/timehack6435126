@@ -67,8 +67,8 @@
   </distributionManagement>
 
   <ciManagement>
-    <system>Travis CI</system>
-    <url>https://travis-ci.org/io7m/timehack6435126</url>
+    <system>GitHub Actions</system>
+    <url>https://github.com/timehack6435126/actions</url>
   </ciManagement>
 
   <prerequisites>
