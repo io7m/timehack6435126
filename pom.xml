@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
   <modelVersion>4.0.0</modelVersion>
   <parent>
@@ -15,7 +18,7 @@
   <packaging>pom</packaging>
   <name>com.io7m.timehack6435126</name>
   <description>Java high-resolution timer bug workaround</description>
-  <url>http://github.com/io7m/timehack6435126</url>
+  <url>https://www.io7m.com/software/timehack6435126</url>
 
   <modules>
     <module>com.io7m.timehack6435126.core</module>
@@ -23,14 +26,13 @@
   </modules>
 
   <properties>
-    <com.codacy.id>6a2722d23967445da7c3466448b3d889</com.codacy.id>
     <io7m.api.previousVersion>2.0.0</io7m.api.previousVersion>
   </properties>
 
   <licenses>
     <license>
       <name>ISC License</name>
-      <url>http://io7m.com/license/isc.txt</url>
+      <url>https://www.io7m.com/license/isc.txt</url>
     </license>
   </licenses>
 
@@ -45,7 +47,7 @@
       <id>io7m</id>
       <name>io7m</name>
       <email>code@io7m.com</email>
-      <url>http://io7m.com</url>
+      <url>https://www.io7m.com</url>
     </developer>
   </developers>
 
@@ -93,6 +95,16 @@
         <artifactId>logback-classic</artifactId>
         <version>1.3.0-alpha14</version>
       </dependency>
+      <dependency>
+        <groupId>org.osgi</groupId>
+        <artifactId>org.osgi.annotation.versioning</artifactId>
+        <version>1.1.2</version>
+      </dependency>
+      <dependency>
+        <groupId>org.osgi</groupId>
+        <artifactId>org.osgi.annotation.bundle</artifactId>
+        <version>2.0.0</version>
+      </dependency>
 
       <dependency>
         <groupId>junit</groupId>
@@ -105,17 +117,6 @@
   <build>
     <pluginManagement>
       <plugins>
-        <!-- Require JDK >= 11 -->
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-compiler-plugin</artifactId>
-          <configuration>
-            <source>11</source>
-            <target>11</target>
-            <release>11</release>
-          </configuration>
-        </plugin>
-
         <!-- jstructural plugin for generating documentation. -->
         <plugin>
           <groupId>com.io7m.jstructural</groupId>
@@ -135,6 +136,12 @@
     </pluginManagement>
 
     <plugins>
+      <!-- Spot bugs -->
+      <plugin>
+        <groupId>com.github.spotbugs</groupId>
+        <artifactId>spotbugs-maven-plugin</artifactId>
+      </plugin>
+
       <!-- Generate a site -->
       <plugin>
         <groupId>com.io7m.minisite</groupId>
