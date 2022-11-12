@@ -1,7 +1,7 @@
 <div xmlns="http://www.w3.org/1999/xhtml">
   <p class="shields">
-    <a href="https://github.com/io7m/timehack6435126/actions?query=workflow%3Amain-openjdk_lts-linux">
-      <img src="https://img.shields.io/github/workflow/status/io7m/timehack6435126/main-openjdk_lts-linux"
+    <a href="https://github.com/io7m/timehack6435126/actions?query=workflow%3Amain.linux.temurin.lts">
+      <img src="https://img.shields.io/github/workflow/status/io7m/timehack6435126/main.linux.temurin.lts"
            alt="Build status"/>
     </a>
 
